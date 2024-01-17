@@ -22,7 +22,7 @@ on:
     - cron: '30 16 * * 5'
 
 env:
-  REPO_URL: https://github.com/AgustinLorenzo/openwrt
+  REPO_URL: https://github.com/openwrt/openwrt
   REPO_BRANCH: main
   # REPO_URL: https://github.com/bitthief/openwrt
   # REPO_BRANCH: qualcommax-6.1-nss
