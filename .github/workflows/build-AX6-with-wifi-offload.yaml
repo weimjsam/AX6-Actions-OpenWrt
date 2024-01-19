@@ -22,7 +22,7 @@ on:
     - cron: '30 16 * * 5'
 
 env:
-  REPO_URL: https://github.com/qosmio/openwrt-ipq
+  REPO_URL: https://github.com/weimjsam/openwrt-ipq
   REPO_BRANCH: qualcommax-6.1-nss-wifi
   FEEDS_CONF: AX6.with.ECM/feeds.conf.qosmio
   CONFIG_FILE: AX6.with.ECM/.config.qosmio
