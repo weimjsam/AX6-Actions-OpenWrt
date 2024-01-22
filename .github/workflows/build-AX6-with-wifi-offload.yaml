@@ -21,9 +21,10 @@ on:
   schedule:
     - cron: '30 16 * * 5'
 
+# https://github.com/qosmio/openwrt-ipq
 env:
-  REPO_URL: https://github.com/qosmio/openwrt-ipq
-  REPO_BRANCH: 6335f35
+  REPO_URL: https://github.com/immortalwrt/immortalwrt
+  REPO_BRANCH: master
   FEEDS_CONF: AX6.with.ECM/feeds.conf.qosmio
   CONFIG_FILE: AX6.with.ECM/.config.qosmio
   DIY_P1_SH: AX6.with.ECM/diy-part1.sh
